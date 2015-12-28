@@ -35,9 +35,9 @@
 "------------------------------------------------
 
 " ivim user setting
-let g:ivim_user='Xiao-Ou Zhang' " User name
-let g:ivim_email='kepbod@gmail.com' " User email
-let g:ivim_github='https://github.com/kepbod' " User github
+let g:ivim_user='Gaoxiang Yang' " User name
+let g:ivim_email='davionxiang@gmail.com' " User email
+let g:ivim_github='https://github.com/davionxiang' " User github
 " ivim color settings (hybrid or gruvbox)
 let g:ivim_default_scheme='hybrid'
 " ivim ui setting
@@ -151,6 +151,7 @@ call neobundle#begin(expand($HOME . '/.vim/bundle/'))
 
 " Use NeoBundle to manager plugins
 NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'othree/html5.vim'
 
 if count(g:ivim_bundle_groups, 'ui') " UI setting
     NeoBundle 'mrhooray/vim-hybrid' " Colorscheme hybrid
